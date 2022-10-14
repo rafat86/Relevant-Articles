@@ -1,0 +1,47 @@
+import os
+
+article_num = 1
+title=[]
+article_data=[]
+folder = os.path.join(os.getcwd(),'Articles2')
+print("Articles Names")
+for path,dir, files in os.walk(folder):
+  for f in files:
+    first_line =os.path.join(path,f)
+    with open(first_line,"r") as myfile:
+      title.append(myfile.readline())
+      article_data.append(myfile.read())
+
+for tit in title:
+  print (article_num, ' ', tit)
+  article_num+=1
+
+enter_article_no=int(input("Select article nu: "))
+print(enter_article_no , title[enter_article_no -1])
+
+article_data[enter_article_no - 1]=article_data[enter_article_no - 1].lower()
+irrelevant_word = ["\n", ".", ",", "? ", "! ", "the ", "a ", " for ", "by ", "and ", "to ", "in ",
+                   "with ", "is ", "of ", "this "," very "," our " "was ", "all "," must "," so ",
+                   " no "," his "," at "," on "," was "," were "," his "," her "," him "," by "]
+
+
+for irwd in irrelevant_word:
+    article_data[enter_article_no - 1]= article_data[enter_article_no - 1].replace(irwd, " ")
+
+
+word_list = article_data[enter_article_no - 1].split(" ")
+print(word_list)
+
+word_histogram = {}
+for word in word_list:
+   if word not in word_histogram.keys():
+     word_histogram[word] = 1
+   else:
+     word_histogram[word] = word_histogram[word] + 1
+
+word_histogram.pop("")
+
+print(word_histogram)
+'''
+print(article_data[enter_article_no - 1])
+'''
