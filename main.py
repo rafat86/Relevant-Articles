@@ -27,7 +27,8 @@ for article in article_data:
                        " not ", " mr ", " up ", " better ", " us ", " she ", " they ", " are ", " could ", " also ",
                        " after", " not ", " will ", " than ", " -- ", " when ", " said ", " want ", " told ",
                        " but ", " - ", " more ", " if ", " which ", " there ", " we ", " or ", " can ", " â€“ ",
-                       " u ", " s ", " their ", " most ", " every ", " one ", " didn't ", " such "]
+                       " u ", " s ", " their ", " most ", " every ", " one ", " didn't ", " such ", " _ "," iâ€™m ",
+                       " it's "]
     for irwd in irrelevant_word:
         article_data[article_num - 1] = article_data[article_num - 1].replace(irwd, " ")
         word_list = article_data[article_num - 1].split(" ")
