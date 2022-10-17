@@ -41,8 +41,11 @@ for article in article_data:
     word_histogram.pop("")
     sorted_word_histogram = sorted(word_histogram.items(), key=lambda x: x[1], reverse=True)
     final_word_histogram = sorted_word_histogram[0:6]
+
     print(final_word_histogram)
     article_num += 1
 
 enter_article_no = int(input("Select article nu: "))
 print(enter_article_no, title[enter_article_no - 1])
+print(final_word_histogram)
+
