@@ -1,25 +1,56 @@
 import os
-a = 1
-title=[]
-article_data=[]
-folder = os.path.join(os.getcwd(),'Articles2')
+
+article_num = 1
+title = []
+article_data = []
+folder = os.path.join(os.getcwd(), 'Articles2')
 print("Articles Names")
-for path,dir, files in os.walk(folder):
+for path, dir, files in os.walk(folder):
     for f in files:
-        firstline =os.path.join(path,f)
-        with open(firstline,"r") as myfile:
+        first_line = os.path.join(path, f)
+        with open(first_line, "r") as myfile:
             title.append(myfile.readline())
             article_data.append(myfile.read())
-#            print(a,":", myfile.readline())
-#            a = a + 1
 
 for tit in title:
-    print (a, ' ', tit)
-    a+=1
+    print(article_num, ' ', tit)
+    article_num += 1
 
-enter_article_no=int(input("Select article nu"))
-print(enter_article_no , title[enter_article_no -1])
-print(article_data[enter_article_no - 1])
+#enter_article_no = int(input("Select article nu: "))
 
+Listed_relevant_words = []
+article_num = 1
+for article in article_data:
+    article_data[article_num - 1] = article_data[article_num - 1].lower()
+    irrelevant_word = ["\n", ".", ",", "? ", "! ", " the ", " a ", " for ", "by ", "and ", " to ", " in ",
+                       " with ", " is ", " of ", " this ", " very ", " our ", " was ", " all ", " must ", " so ",
+                       " no ", " his ", " at ", " on ", " was ", " were ", " his ", " her ", " him ", " its ",
+                       " new ", " be ", " had ", " he ", " that ", " it ", " from ", " you ", " as ", " have ",
+                       " been ", " would ", " who ", " about ", " has ", " then ", " an ", " i ", " my ", " just ",
+                       " not ", " mr ", " up ", " better ", " us ", " she ", " they ", " are ", " could ", " also ",
+                       " after", " not ", " will ", " than ", " -- ", " when ", " said ", " want ", " told ",
+                       " but ", " - ", " more ", " if ", " which ", " there ", " we ", " or ", " can ", " â€“ ",
+                       " u ", " s ", " their ", " most ", " every ", " one ", " didn't ", " such ", " _ "," iâ€™m ",
+                       " it's "]
+    for irwd in irrelevant_word:
+        article_data[article_num - 1] = article_data[article_num - 1].replace(irwd, " ")
+        word_list = article_data[article_num - 1].split(" ")
+        word_histogram = {}
+        for word in word_list:
+            if word not in word_histogram.keys():
+                word_histogram[word] = 1
+            else:
+                word_histogram[word] = word_histogram[word] + 1
+    word_histogram.pop("")
+    sorted_word_histogram = sorted(word_histogram.items(), key=lambda x: x[1], reverse=True)
+    final_word_histogram = sorted_word_histogram[0:6]
+    list_histogram = list(map(lambda x: x[0], final_word_histogram))
+    Listed_relevant_words.append(list_histogram)
+    #print(list_histogram)
+    article_num += 1
+
+print(Listed_relevant_words)
+#enter_article_no = int(input("Select article nu: "))
+#print(enter_article_no, title[enter_article_no - 1])
 
 

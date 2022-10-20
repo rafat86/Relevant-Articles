@@ -1,54 +1,24 @@
-Human rights advocates from Russia, Ukraine and Belarus share Nobel Peace Prize
-By Rob Picheta, CNN
+Many Adults with Disabilities Report Frequent Mental Distress
+A study from the Centers for Disease Control and Prevention (CDC) found that adults with disabilities report experiencing more mental distress than those without disabilities. An estimated 17.4 million (32.9%) adults with disabilities experience frequent mental distress, defined as 14 or more reported mentally unhealthy days in the past 30 days. Frequent mental distress is associated with adverse health behaviors, increased health services utilization, mental disorders, chronic diseases, and functional limitations. Prior work has shown that adults with disabilities are more likely to live below the federal poverty level and lack access to health care due to costs—both of which are associated with a higher occurrence of mental health conditions. Increasing social cohesion, community participation, access to health promotion opportunities, and delivery of mental health screening, care, and support services could help reduce mental distress among adults with disabilities.
 
-Updated: Fri, 07 Oct 2022 15:31:40 GMT
+Read the full article published in the Morbidity and Mortality Weekly Report.
 
-Source: CNN
+MMWR Easy-read Notes
+Read a full summary of the MMWR that is written for all audiences.
 
-Human rights groups from Russia and Ukraine -- Memorial and the Center for Civil Liberties -- have won the Nobel Peace Prize for 2022, along with the jailed Belarusian advocate Ales Bialiatski.
+Main Findings
+Adults with disabilities reported mental distress 4.6 times as often as those without disabilities;
+More than half of all adults with both cognitive and mobility disabilities reported mental distress;
+Adults with disabilities who reported cigarette smoking, depressive disorders, insufficient sleep, obesity, physical inactivity, or unmet healthcare needs due to cost also reported more mental distress than those without disabilities and these characteristics; and
+Among adults without disabilities, veterans and retirees were both 20% less likely to report mental distress than nonveterans and individuals who were employed; no differences were found by veteran and employment status for people with disabilities.
+About This Study
+This publication used data from the 2018 Behavioral Risk Factor Surveillance System (BRFSS). BRFSS is an annual, landline and cellular telephone-based self-reported survey of noninstitutionalized U.S. adults aged 18 years or older.
+BRFSS asked the following question about mental distress: Thinking about your mental health, which includes stress, depression, and problems with emotions, for how many days during the past 30 days was your mental health not good?
+CDC compared the numbers of those with mental distress among adults with and without disabilities by disability type and selected demographic characteristics, including sex, age, race and ethnicity, veteran status, marital status, employment status, sexual identity, federal poverty level, and urban or rural designation.
+Causes of frequent mental distress could not be determined from this cross-sectional (also known as a one-time) study.
+Our Work
+CDCs National Center on Birth Defects and Developmental Disabilities is working to ensure that people with disabilities have the same opportunities for overall well-being as people without disabilities by
 
-The new laureates were honored for an outstanding effort to document war crimes, human right abuses and the abuse of power in their respective countries. They have for many years promoted the right to criticize power and protect the fundamental rights of citizens,  the Norwegian Nobel Committee said.
-
-Their win comes seven months after Russia waged a full-scale war on Ukraine, with the assistance of Belarus. That ongoing conflict loomed heavily over this year's award, and it had been speculated that the committee would seek to pay tribute to activists in the affected nations.
-
-The Ukrainian group, Center for Civil Liberties, has  engaged in efforts to identify and document Russian war crimes against the Ukrainian civilian population  since the invasion was launched in February, the committee said.
-
- In collaboration with international partners, the center is playing a pioneering role with a view to holding the guilty parties accountable for their crimes. 
-
-The head of the Center for Civil Liberties said the group was  proud  to win the prize, calling it  a recognition of work of many human rights activists in Ukraine and not only in Ukraine. 
-
-Oleksandra Matviichuk, the organization's head, said on Facebook she was  happy  that the Center had received the prize  together with our friends and partners. 
-
-She also called for the creation of an international tribunal to prosecute Russian President Vladimir Putin and Belarusian President Alexander Lukashenko for war crimes.
-
-Matviichuk also said Russia should be  thrown out  of the UN Security Council for what she called  systemic breaches of the UN Charter. 
-
-Memorial was founded in 1987 and, after the fall of the Soviet Union, became one of Russia's most prominent human rights watchdogs. It has worked to expose the abuses and atrocities of the Stalinist era.
-
-The group was shut down by Russian courts in the past year, in a major blow to the country's hollowed-out civil rights landscape.
-
-Bialiatski, meanwhile, has documented human rights abuses in Belarus since the 1980s. He founded the organization Viasna, or Spring, in 1996 after a referendum that consolidated the authoritarian powers of president and close Russian ally, Lukashenko.
-
-The activist was arrested in 2020 amid widespread protests against Lukashenko's regime.  He is still detained without trial. Despite tremendous personal hardship, Mr Bialiatski has not yielded an inch in his fight for human rights and democracy in Belarus,  the committee said.
-
-Belarusian opposition politician Sviatlana Tsikhanouskaya congratulated Bialiatski.  The prize is an important recognition for all Belarusians fighting for freedom & democracy,  she wrote in a tweet.  All political prisoners must be released without delay. 
-
-European Commission President Ursula von der Leyen applauded the  outstanding courage of the women and men standing against autocracy. 
-
-And French President Emmanuel Macron tweeted that the Nobel committee had honored  the unwavering defenders of human rights in Europe. 
-
- Artisans of peace, they know they can count on the support of France,  Macron added.
-
-It had been widely anticipated that the Nobel decision-makers would focus attention on Russia's invasion of Ukraine, given its aftershocks in security and stability across the globe.
-
-But those involved in leading military campaigns, such as Ukrainian President Volodymyr Zelensky, were seen as longshots given that government-led peace negotiations appear to offer slim hopes of a resolution to the conflict in the near future.
-
- The committee is giving a message about the importance of political freedoms, civil liberties and an active civil society as being part of what makes for a peaceful society,  Dan Smith, director of the Stockholm International Peace Research Institute, told CNN.  I think that's a very important message. 
-
- This prize has a lot of layers on it; it's covering a lot of ground and giving more than one message,  he added.  (It is) a prize about citizenship, and what is the best kind of citizenship if we wish to be citizens of peaceful countries in a peaceful world. 
-
- This year we were in a situation with a war in Europe, which was most unusual, but also facing a war that has a global effect on people all over the world,  Berit Reiss-Andersen, the chair of the committee, told reporters.
-
-Reiss-Andersen said the prize was not intended to send a message to Putin or any other individual. But she added that he represents  an authoritarian government that is suppressing human rights activists. 
-
-The three winners will share the prize money of 10,000,000 Swedish krona ($900,000). The Nobel Prizes will be officially awarded to the laureates at a ceremony on December 10, the anniversary of Alfred Nobel's death.
+Using data to understand the health and disparities experienced by people with disabilities;
+Supporting the inclusion of people with disabilities in public health programs; and
+Educating families, healthcare providers, public health professionals, and the public about the health of people with disabilities across the lifespan. 
