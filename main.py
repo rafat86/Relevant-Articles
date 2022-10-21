@@ -49,11 +49,12 @@ for article in article_data:
 
 #print(Listed_relevant_words)
 article_num = 1
-print("Relevant Text No")
+print("Relevant Text No:", " / intersected words")
 for intsec in Listed_relevant_words:
     list_1 = Listed_relevant_words[(enter_article_no - 1)]
     list_2 = Listed_relevant_words[(article_num - 1)]
     intersected_list = list(set(list_1).intersection(set(list_2)))
     if len(intersected_list) >= 3:
-        print((article_num), intersected_list)
+        if (enter_article_no - 1) != (article_num - 1) :
+            print((article_num), intersected_list)
     article_num += 1
