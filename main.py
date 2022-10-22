@@ -8,7 +8,7 @@ print("Articles Names")
 for path, dir, files in os.walk(folder):
     for f in files:
         first_line = os.path.join(path, f)
-        with open(first_line, "r") as my_file:
+        with open(first_line, "r", errors = 'ignore') as my_file:
             title.append(my_file.readline())
             article_data.append(my_file.read())
 
