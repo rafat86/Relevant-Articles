@@ -48,7 +48,7 @@ for article in article_data:
     article_num += 1
 
 article_num = 1
-print("Relevant Text No:", " / intersected words")
+print("Relevant Text Number:", " / intersected words")
 for relevant in Listed_relevant_words:
     list_1 = Listed_relevant_words[(enter_article_no - 1)]
     list_2 = Listed_relevant_words[(article_num - 1)]
