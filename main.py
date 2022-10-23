@@ -8,7 +8,7 @@ print("Articles Names")
 for path, dir, files in os.walk(folder):
     for f in files:
         first_line = os.path.join(path, f)
-        with open(first_line, "r", errors = 'ignore') as my_file:
+        with open(first_line, "r", errors='ignore') as my_file:
             title.append(my_file.readline())
             article_data.append(my_file.read())
 
@@ -50,10 +50,10 @@ for article in article_data:
 article_num = 1
 print("Relevant Text Number:", " / intersected words")
 for relevant in Listed_relevant_words:
-    list_1 = Listed_relevant_words[(enter_article_no - 1)]
+    list_1 = Listed_relevant_words[(enter_article_no - 1)]  # the reader choice
     list_2 = Listed_relevant_words[(article_num - 1)]
     intersected_list = list(set(list_1).intersection(set(list_2)))
     if len(intersected_list) >= 3:
-        if (enter_article_no - 1) != (article_num - 1):
+        if (enter_article_no - 1) != (article_num - 1):  # to remove the reader choice from relevant articles
             print(article_num, intersected_list)
     article_num += 1
